@@ -1,0 +1,29 @@
+<!-- Muallif: Joraqozi Turdaliyev -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+  </head>
+  <body>
+    <h2 class="heading">O`z filmingizni toping!</h2>
+    <input class="filmInput" type="search" placeholder="Film nomi..." />
+    <ul class="filmList"></ul>
+    <button class="prevBtn">Prev</button>
+    <button class="nextBtn">Next</button>
+    <p class="please">Iltimos kino topilmasa boshqa nom bilan urining!!!</p>
+    <template class="filmTemplate">
+      <li class="film">
+        <img class="filmImg" src="https://via.placeholder.com/100x150" alt="" />
+        <h3 class="filmTitle"></h3>
+        <p class="filmType">Type</p>
+        <p class="filmYear">1999</p>
+        <p class="filmId">Title</p>
+      </li>
+    </template>
+    <script src="mean.js"></script>
+  </body>
+</html>
